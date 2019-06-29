@@ -1,0 +1,41 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject",
+    "test": "node ./node_modules/jest/bin/jest.js --watchAll"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/samples": "2.1.1",
+    "@mapbox/polyline": "^1.0.0",
+    "apsl-react-native-button": "^3.1.1",
+    "expo": "^32.0.0",
+    "missing": "0.0.1",
+    "react": "^16.5.0",
+    "react-confirm-alert": "^2.3.0",
+    "react-dom": "^16.8.4",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-apple-healthkit": "^0.2.1",
+    "react-native-google-fit": "^0.7.1",
+    "react-native-google-fitness": "^0.2.1",
+    "react-native-google-maps-directions": "^2.0.0",
+    "react-native-google-signin": "^0.10.0",
+    "react-native-maps": "^0.23.0",
+    "react-native-open-maps": "^0.3.3",
+    "react-native-pedometer": "0.0.7",
+    "react-native-progress-bar-animated": "^1.0.6",
+    "react-native-vector-icons": "^6.2.0",
+    "react-navigation": "^3.0.9",
+    "rn-apple-healthkit": "^0.6.5"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^5.0.0",
+    "jest-expo": "^32.0.0"
+  },
+  "private": true
+}
